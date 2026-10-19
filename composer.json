@@ -1,0 +1,20 @@
+{
+  "name": "nguemoue/pasteguard",
+  "description": "Masque tokens, JWT, cles et e-mails dans un log avant de le coller. CLI PHP sans dependance.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "PasteGuard\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/pasteguard"
+  ],
+  "scripts": {
+    "test": "php tests/run.php"
+  }
+}
